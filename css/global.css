@@ -1,0 +1,238 @@
+body {
+	background: #800;
+	text-align: center;
+	font-color: #FFF;
+}
+
+
+header {
+	color: #6CC;
+	font: 28px bold ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+	padding: 16px 0 7px 0;
+}
+header p {
+	color: #6CC;
+	font: 18px ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+	margin: 0 auto;
+}
+
+nav {
+	padding-bottom: 15px;
+}
+nav .head {
+	margin-left: -38px;
+}
+nav .head li {
+	background-color: #000;
+	border: 1px solid #FCC;
+	display: inline;
+	padding: 10px 10px 6px 10px;
+	text-decoration: none;
+}
+nav .head li a {
+	color: #FFF;
+	font: 1.5em 'Courier', serif;
+	font-variant: small-caps;
+	text-decoration: none;
+}
+nav .head li a:hover {
+	color: #F00;
+	text-decoration: line-through;
+}
+nav .gallery {
+	margin-left: -30px;
+}
+nav .gallery li {
+	background-color: #FFF;
+	border: 1px solid #333;
+	display: inline;
+	font-variant: small-caps;
+	margin: 0 auto;
+	padding: 6px 8px;	
+}
+nav .gallery li a {
+	color: #000;
+	font: 1.2em 'Courier', monospace;
+	font-variant: small-caps;
+	text-decoration: none;
+}
+nav .gallery li a:hover {
+	color: #F00;
+	text-decoration: line-through;
+}
+
+.main {
+	border-top: 2px solid #000;
+	border-bottom: 2px solid #000;
+	color: #FFF;
+	margin-left: -20px;
+	margin-right: -20px;
+	position: relative;
+}
+.main h1, h2, h3 , h4, h5, h6 {
+	font: "Courier New", Courier, monospace;
+	text-align: center;
+}
+.main p {
+	font:  13px bold "Courier New", Courier, monospace;
+	margin: auto;
+	max-width: 720px;
+	text-align: center;
+}
+.main a {
+	color: #9FF;
+}
+.main a:hover {
+	color: #F99;
+}
+.frame img {
+	box-shadow: 0 0 10px #000 inset;
+	-moz-box-shadow: 0 0 10px #000 inset;
+	-webkit-box-shadow: 0 0 10px #000 inset;
+	/*border: 1px solid #C66;*/
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	display: inline;
+	margin: 0 3px;
+	padding: 3px;
+	width: 108px;
+}
+.social img {
+	box-shadow: 0 0 4px #000 inset;
+	-moz-box-shadow: 0 0 4px #000 inset;
+	-webkit-box-shadow: 0 0 4px #000 inset;
+	border: 1px solid #000;
+	display: inline;
+	margin: 0 auto;
+	padding: -8px;
+	width: 48px;
+	max-width: 48px;
+}
+.social img:hover {
+	border: 1px solid #F00;
+}
+
+.gallerydoor img {
+	box-shadow: 0 0 18px #000 inset;
+	-moz-box-shadow: 0 0 18px #000 inset;
+	-webkit-box-shadow: 0 0 18px #000 inset;
+	border-right: 1px solid #FFF;
+	border-bottom: 1px solid #FFF;
+	float: inherit;
+	margin: 2px auto;
+	padding: 10px;
+	width: 60%;
+}
+.galleryOne {
+	display: inline-block;
+	float: left;
+	margin-left: 7%;
+	position: static;
+	width: 50%;
+	max-width: 720px;
+}
+.galleryOne p {
+	color: #FFF;
+	font: 12px “Courier New”, courier, monospace;
+	text-align: center;
+}
+.galleryOne img {
+	background: #000;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 15px;
+	padding: 5px;
+	width: 95%;
+}
+.galleryTwo {
+	display: inline-block;
+	float: right;
+	margin-right: 7%;
+	position: static;
+	width: 38%;
+	max-width: 460px;
+}
+.galleryTwo p {
+	color: #FFF;
+	font: 12px “Courier New”, courier, monospace;
+	text-align: center;
+}
+.galleryTwo img {
+	background: #000;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 15px;
+	padding: 5px;
+	width: 95%;
+}
+
+#contact {
+	border: 1px solid #000;
+	box-shadow: 0 0 10px #000 inset;
+	-moz-box-shadow: 0 0 10px #000 inset;
+	-webkit-box-shadow: 0 0 10px #000 inset;
+	clear: both;
+	display: block;
+	margin: auto;
+	padding: 20px;
+	position: relative;
+	text-align: center;
+	width: 98%;
+	min-width: 400px;
+	max-width: 550px;
+}
+#contact label {
+	color: #FFF;
+  	padding: 5%;
+  	margin: 5%;
+}
+#contact input#name, input#email, input#human {
+	border: 2px solid #333;
+	padding: 5px;
+  	margin: 0 auto;
+}
+#contact textarea#message {
+	border: 2px solid #333;
+	height: 100px;
+	width: 90%;
+}
+#contact input[id="submit"] {
+	background: #FFF;
+	font: #000 Verdana, Geneva, sans-serif;
+	width: 142px;
+}
+#contact input[type="submit"]:hover, input[type="submit"]:active {
+	cursor: pointer;
+	background: #003;
+	color: #FFF;
+}
+#contact #req-field-desc {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: .6em;
+	font-style: italic;
+	text-align: center;
+}
+
+footer {
+	clear: both;
+	color: #FFF;
+	font: 13px Courier;
+	margin: 0 auto;
+	max-width: 420px;
+	padding: 10px;
+	text-align: center;
+}
+footer a {
+	color: #9FF;
+}
+footer a:hover {
+	color: #F00;
+}
+
