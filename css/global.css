@@ -18,9 +18,11 @@ header p {
 
 
 .portrait {
-	border-radius: 50%;
-	-moz-border-radius: 50%;
-	-webkit-border-radius: 50%;
+	border-radius: 50px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	width: 250px;
+	height: 250px;
 }
 
 
