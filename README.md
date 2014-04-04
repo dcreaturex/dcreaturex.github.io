@@ -1,3 +1,3 @@
 dcreaturex.github.io
 ====================
-This is my online design portfolio. Mainly to test usage of github.
+Online graphic design portfolio for Amber Anderson, Orange County.
