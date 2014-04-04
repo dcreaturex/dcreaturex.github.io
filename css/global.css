@@ -7,7 +7,7 @@ body {
 
 header {
 	color: #6CC;
-	font: 28px bold ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+	font: 28px ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
 	padding: 16px 0 7px 0;
 }
 header p {
@@ -72,21 +72,21 @@ nav .gallery li a:hover {
 }
 
 .main {
-	border-top: 2px solid #000;
-	border-bottom: 2px solid #000;
+	/*border-top: 2px solid #000;
+	border-bottom: 2px solid #000;*/
 	color: #FFF;
-	margin-left: -20px;
-	margin-right: -20px;
+	margin-left: -10px;
+	margin-right: -10px;
 	position: relative;
 }
 .main h1, h2, h3 , h4, h5, h6 {
-	font: "Courier New", Courier, monospace;
+	font: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	text-align: center;
 }
 .main p {
-	font:  13px bold "Courier New", Courier, monospace;
-	margin: auto;
-	max-width: 720px;
+	font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	margin: 0 auto;
+	max-width: 820px;
 	text-align: center;
 }
 .main a {
@@ -114,14 +114,17 @@ nav .gallery li a:hover {
 	-webkit-box-shadow: 0 0 4px #000 inset;
 	border: 1px solid #000;
 	display: inline;
-	margin: 0 auto;
-	padding: 1px;
-	width: 75px;
+	margin: 3px;
+	padding: -5px;
+	max-width: 65px;
 }
 .social img:hover {
 	border: 1px solid #F00;
 }
 
+.title {
+	font-size: 16px;
+}
 .gallerydoor img {
 	box-shadow: 0 0 18px #000 inset;
 	-moz-box-shadow: 0 0 18px #000 inset;
@@ -133,20 +136,19 @@ nav .gallery li a:hover {
 	padding: 10px;
 	width: 60%;
 }
-.galleryOne {
+.gallery {
 	display: inline-block;
-	float: left;
-	margin-left: 7%;
+	float: inherit;
 	position: static;
-	width: 50%;
+	width: 60%;
 	max-width: 720px;
 }
-.galleryOne p {
+.gallery p {
 	color: #FFF;
 	font: 12px “Courier New”, courier, monospace;
 	text-align: center;
 }
-.galleryOne img {
+.gallery img {
 	background: #000;
 	border-radius: 5px;
 	-moz-border-radius: 5px;
