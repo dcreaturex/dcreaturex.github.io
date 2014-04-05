@@ -55,18 +55,9 @@ nav .gallery li a {
 	width: 85%;
 }
 .main p, #content h1, #content h2, #content h3, #content h4, #content h5, #content h6 {
-	margin: auto;
-	padding: 10px 0;
-	text-align: center;
+	margin: 0 auto;
 }
-.main img {
-	border-right: 1px solid #FFF;
-	border-bottom: 1px solid #FFF;
-	float: right;
-	margin-right: 1%;
-	padding: 1%;
-	width: 98%;
-}
+
 
 .frame img {
 	box-shadow: 0 0 8px #000 inset;
@@ -105,7 +96,7 @@ nav .gallery li a {
 	width: 80%;
 }
 
-.galleryOne {
+.gallery {
 	float: inherit;
 	clear: right;
 	margin: 2px 0;
@@ -113,15 +104,8 @@ nav .gallery li a {
 	min-width: 260px;
 	max-width: 640px;
 }
-.galleryTwo {
-	float: inherit;
-	clear: both;
-	margin: 2px 0;
-	width: 98%;
-	min-width: 260px;
-	max-width: 640px;
-}
-.galleryOne img {
+
+.gallery img {
 	box-shadow: 0 0 12px #000 inset;
 	-moz-box-shadow: 0 0 12px #000 inset;
 	-webkit-box-shadow: 0 0 12px #000 inset;
@@ -134,32 +118,11 @@ nav .gallery li a {
 	margin: 2px 1px;
 	padding: 8px;
 }
-.galleryTwo img {
-	box-shadow: 0 0 12px #000 inset;
-	-moz-box-shadow: 0 0 12px #000 inset;
-	-webkit-box-shadow: 0 0 12px #000 inset;
-	border: 1px solid #FFF;
-	border-radius: 6px;
-	-moz-border-radius: 6px;
-	-webkit-border-radius: 6px;
-	float: right;
-	clear: both;
-	margin: 0 1px;
-	padding: 5px;
-	/*background: #000;
-	border: 1px solid #FFF;
-	border-radius: 5px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	padding: 5px;
-	width: 240px;*/
-}
-.galleryOne img:hover {
+
+.gallery img:hover {
 	zoom: none;
 }
-.galleryTwo img:hover {
-	zoom: none;
-}
+
 
 .frame img {
 	box-shadow: 0 0 10px #000 inset;

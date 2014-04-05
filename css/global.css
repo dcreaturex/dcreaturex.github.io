@@ -18,58 +18,13 @@ header p {
 
 
 .portrait {
-	border-radius: 50px;
-	-moz-border-radius: 50px;
-	-webkit-border-radius: 50px;
-	width: 100px;
-	height: 100px;
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	width: 120px;
+	height: 120px;
 }
 
-
-nav {
-	padding-bottom: 15px;
-}
-nav .head {
-	margin-left: -38px;
-}
-nav .head li {
-	background-color: #000;
-	border: 1px solid #FCC;
-	display: inline;
-	padding: 10px 10px 6px 10px;
-	text-decoration: none;
-}
-nav .head li a {
-	color: #FFF;
-	font: 1.5em 'Courier', serif;
-	font-variant: small-caps;
-	text-decoration: none;
-}
-nav .head li a:hover {
-	color: #F00;
-	text-decoration: line-through;
-}
-nav .gallery {
-	margin-left: -30px;
-}
-nav .gallery li {
-	background-color: #FFF;
-	border: 1px solid #333;
-	display: inline;
-	font-variant: small-caps;
-	margin: 0 auto;
-	padding: 6px 8px;	
-}
-nav .gallery li a {
-	color: #000;
-	font: 1.2em 'Courier', monospace;
-	font-variant: small-caps;
-	text-decoration: none;
-}
-nav .gallery li a:hover {
-	color: #F00;
-	text-decoration: line-through;
-}
 
 .main {
 	/*border-top: 2px solid #000;
@@ -108,18 +63,24 @@ nav .gallery li a:hover {
 	padding: 3px;
 	width: 108px;
 }
+
 .social img {
-	box-shadow: 0 0 4px #000 inset;
-	-moz-box-shadow: 0 0 4px #000 inset;
-	-webkit-box-shadow: 0 0 4px #000 inset;
-	border: 1px solid #000;
+	box-shadow: 0 0 6px #000 inset;
+	-moz-box-shadow: 0 0 6px #000 inset;
+	-webkit-box-shadow: 0 0 6px #000 inset;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	/*border: 1px solid #000;*/
 	display: inline;
-	margin: 3px;
-	padding: -5px;
-	max-width: 65px;
+	margin: 8px 3px;
+	padding: -8px;
+	max-width: 72px;
 }
 .social img:hover {
-	border: 1px solid #F00;
+	box-shadow: 0 0 6px #F00 inset;
+	-moz-box-shadow: 0 0 6px #F00 inset;
+	-webkit-box-shadow: 0 0 6px #F00 inset;
 }
 
 
@@ -160,30 +121,7 @@ nav .gallery li a:hover {
 	padding: 5px;
 	width: 95%;
 }
-.galleryTwo {
-	display: inline-block;
-	float: right;
-	margin-right: 7%;
-	position: static;
-	width: 38%;
-	max-width: 460px;
-}
-.galleryTwo p {
-	color: #FFF;
-	font: 12px “Courier New”, courier, monospace;
-	text-align: center;
-}
-.galleryTwo img {
-	background: #000;
-	border-radius: 5px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	display: block;
-	margin: 0 auto;
-	margin-bottom: 15px;
-	padding: 5px;
-	width: 95%;
-}
+
 
 #contact {
 	border: 1px solid #000;
