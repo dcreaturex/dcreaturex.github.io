@@ -50,6 +50,11 @@ nav .gallery li a {
 	text-decoration: none;
 }
 
+.social img {
+	margin: 8px 3px;
+	max-width: 60px;
+}
+
 .main {
 	margin: auto;
 	width: 85%;
@@ -67,10 +72,10 @@ nav .gallery li a {
 	border-radius: 4px;
 	-moz-border-radius: 4px;
 	-webkit-border-radius: 4px;
-	display: column;
+	display: inline;
 	margin: 0 3px;
 	padding: 5px;
-	max-width: 100px;
+	max-width: 98px;
 }
 
 .individual img {
@@ -84,17 +89,7 @@ nav .gallery li a {
 	padding: 10px;
 	width: 400px;
 }
-.gallerydoor img {
-	box-shadow: 0 0 28px #000 inset;
-	-moz-box-shadow: 0 0 28px #000 inset;
-	-webkit-box-shadow: 0 0 28px #000 inset;
-	border-right: 1px solid #FFF;
-	border-bottom: 1px solid #FFF;
-	float: center;
-	margin: 2%;
-	padding: 10px;
-	width: 80%;
-}
+
 
 .gallery {
 	float: inherit;
@@ -128,7 +123,7 @@ nav .gallery li a {
 	box-shadow: 0 0 10px #000 inset;
 	-moz-box-shadow: 0 0 10px #000 inset;
 	-webkit-box-shadow: 0 0 10px #000 inset;
-	border: 1px solid #FFF;
+	/*border: 1px solid #FFF;*/
 	border-radius: 6px;
 	-moz-border-radius: 6px;
 	-webkit-border-radius: 6px;
@@ -139,17 +134,11 @@ nav .gallery li a {
 	max-width: 240px;
 }
 .frame img:hover {
-	border: 1px solid #666;
+	/*border: 1px solid #666;*/
 }
 
-#contact {
-	padding: 8px;
-	margin: 0 auto;
-	min-width: 200px;
-	position: inherit;
-}
 
 footer {
-	display: none;
+	/*display: none;*/
 }
 

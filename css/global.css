@@ -21,8 +21,8 @@ header p {
 	border-radius: 50%;
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
-	width: 120px;
-	height: 120px;
+	width: 125px;
+	height: 125px;
 }
 
 
@@ -41,14 +41,20 @@ header p {
 .main p {
 	font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	margin: 0 auto;
-	max-width: 820px;
+	max-width: 850px;
 	text-align: center;
 }
 .main a {
-	color: #9FF;
+	color: #6CC;
+	text-decoration: none;
 }
 .main a:hover {
 	color: #F99;
+	text-decoration: none;
+}
+.main a:visited {
+	color: #F66;
+	text-decoration: none;
 }
 .frame img {
 	box-shadow: 0 0 10px #000 inset;
@@ -60,27 +66,27 @@ header p {
 	-webkit-border-radius: 4px;
 	display: inline;
 	margin: 0 3px;
-	padding: 3px;
+	padding: 5px;
 	width: 108px;
 }
 
 .social img {
-	box-shadow: 0 0 6px #000 inset;
-	-moz-box-shadow: 0 0 6px #000 inset;
-	-webkit-box-shadow: 0 0 6px #000 inset;
-	border-radius: 8px;
-	-moz-border-radius: 8px;
-	-webkit-border-radius: 8px;
+	box-shadow: 0 0 8px #000 inset;
+	-moz-box-shadow: 0 0 8px #000 inset;
+	-webkit-box-shadow: 0 0 8px #000 inset;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
 	/*border: 1px solid #000;*/
 	display: inline;
-	margin: 8px 3px;
+	margin: 8px -8px;
 	padding: -8px;
-	max-width: 72px;
+	max-width: 75px;
 }
 .social img:hover {
-	box-shadow: 0 0 6px #F00 inset;
-	-moz-box-shadow: 0 0 6px #F00 inset;
-	-webkit-box-shadow: 0 0 6px #F00 inset;
+	box-shadow: 0 0 15px #F00 inset;
+	-moz-box-shadow: 0 0 15px #F00 inset;
+	-webkit-box-shadow: 0 0 15px #F00 inset;
 }
 
 
