@@ -1,5 +1,5 @@
 body {
-	background: #660000 center top fixed;
+	background: #112244 center top fixed;
 	size: cover;
 	text-align: center;
 	font-color: #FFF;
@@ -12,18 +12,19 @@ header {
 	padding: 16px 0 7px 0;
 }
 header p {
-	color: #6CC;
+	color: #C4C;
 	font: 18px ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
 	margin: 0 auto;
 }
 
 
 .portrait {
+	clear: left;
 	border-radius: 50%;
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
+	margin-right: 29%;
 	width: 125px;
-	height: 125px;
 }
 
 
@@ -31,19 +32,17 @@ header p {
 	/*border-top: 2px solid #000;
 	border-bottom: 2px solid #000;*/
 	color: #FFF;
-	margin-left: -10px;
-	margin-right: -10px;
-	position: relative;
+	/*margin-right: -10px;*/
 }
 .main h1, h2, h3 , h4, h5, h6 {
 	font: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-	text-align: center;
+	text-align: justify;
 }
 .main p {
 	font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	margin: 0 auto;
 	max-width: 850px;
-	text-align: center;
+	text-align: jcenter;
 }
 .main a {
 	color: #6CC;
@@ -67,7 +66,7 @@ header p {
 	-webkit-border-radius: 4px;
 	display: inline;
 	margin: 0 3px;
-	padding: 5px;
+	padding: 10px;
 	width: 142px;
 }
 
@@ -80,8 +79,8 @@ header p {
 	-webkit-border-radius: 10px;
 	/*border: 1px solid #000;*/
 	display: inline;
-	margin: 8px -8px;
-	padding: -8px;
+	margin: 8px 8px;
+	padding: -18px;
 	max-width: 75px;
 }
 .social img:hover {
