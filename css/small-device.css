@@ -1,9 +1,13 @@
 body {
-    background: #800;
+    background: #112244 center top fixed;
+	text-align: center;
+	font-color: #FFF;
 }
 
 header {
-	padding: 4px;
+	color: #6CC;
+	font: 26px ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+	padding: 16px 0 7px 0;
 }
 
 nav {
@@ -64,18 +68,11 @@ nav .gallery li a {
 }
 
 
-.frame img {
-	box-shadow: 0 0 8px #000 inset;
-	-moz-box-shadow: 0 0 8px #000 inset;
-	-webkit-box-shadow: 0 0 8px #000 inset;
-	/*border: 1px solid #FFF;*/
-	border-radius: 4px;
-	-moz-border-radius: 4px;
-	-webkit-border-radius: 4px;
+.frame {
 	display: none;
-	margin: 0 3px;
-	padding: 5px;
-	max-width: 98px;
+}
+.frame img {
+	display: none;
 }
 
 .individual img {
@@ -93,7 +90,7 @@ nav .gallery li a {
 
 .gallery {
 	float: inherit;
-	clear: right;
+	/*clear: right;*/
 	margin: 2px 0;
 	width: 98%;
 	min-width: 260px;
