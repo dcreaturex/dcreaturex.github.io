@@ -9,6 +9,10 @@ header {
 	font: 26px ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
 	padding: 16px 0 7px 0;
 }
+header img {
+	float: left;
+	clear: right;
+}
 
 nav {
 	padding-bottom: 10px;
